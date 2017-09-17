@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: attendance-service
+  cloud:
+    config:
+      enabled: false
+      discovery:
+        enabled: false
+    consul:
+      enabled: false
+      discovery:
+        enabled: false
+  profiles:
+    active: test
